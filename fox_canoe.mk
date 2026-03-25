@@ -19,7 +19,7 @@
 #
 
 
- OF_MAINTAINER := Jonas Salo & Daniel Springer
+ OF_MAINTAINER := Yuchen
  OF_SCREEN_H := 2340
  OF_STATUS_H := 141
  OF_HIDE_NOTCH := 1
