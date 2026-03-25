@@ -17,7 +17,7 @@
 #
 # 	Please maintain this if you use this script or any part of it
 #
-FDEVICE="infiniti"
+FDEVICE="canoe"
 
 fox_get_target_device() {
 local chkdev=$(echo "$BASH_SOURCE" | grep -w $FDEVICE)
@@ -57,13 +57,13 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export FOX_ALLOW_EARLY_SETTINGS_LOAD=1
 
 	# For OnePlus 15
-	export TARGET_DEVICE_ALT="PLK110,OP611FL1,OP60FFL1,CPH2745,CPH2747,CPH2749"
+	export TARGET_DEVICE_ALT="PLZ110"
 	export FOX_TARGET_DEVICES="$TARGET_DEVICE_ALT"
 	export FOX_ADD_API_V36_PREBUILTS=2
    	export FOX_USE_DMSETUP=1
-	export FOX_ENABLE_KERNELSU_SUPPORT=1
-	export FOX_ENABLE_KERNELSU_NEXT_SUPPORT=1
-	export FOX_ENABLE_SUKISU_SUPPORT=1
+	export FOX_ENABLE_KERNELSU_SUPPORT=0
+	export FOX_ENABLE_KERNELSU_NEXT_SUPPORT=0
+	export FOX_ENABLE_SUKISU_SUPPORT=0
 	export FOX_BUILD_TYPE=Beta
 fi
 #
