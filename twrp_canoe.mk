@@ -28,10 +28,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 
 # Inherit from dodge device
-$(call inherit-product, device/oneplus/infiniti/device.mk)
+$(call inherit-product, device/oneplus/canoe/device.mk)
 
-PRODUCT_DEVICE := infiniti
-PRODUCT_NAME := twrp_infiniti
+PRODUCT_DEVICE := canoe
+PRODUCT_NAME := twrp_canoe
 PRODUCT_BRAND := oneplus
 PRODUCT_MODEL := OnePlus 15T
 PRODUCT_MANUFACTURER := oneplus
