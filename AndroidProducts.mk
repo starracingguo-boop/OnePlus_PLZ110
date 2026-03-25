@@ -9,9 +9,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_infiniti.mk
+    $(LOCAL_DIR)/twrp_canoe.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_infiniti-user \
-    twrp_infiniti-userdebug \
-    twrp_infiniti-eng
+    twrp_canoe-user \
+    twrp_canoe-userdebug \
+    twrp_canoe-eng
