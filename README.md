@@ -1,19 +1,6 @@
-# OnePlus 15 infiniti OrangeFox device tree
+# OnePlus 15T canoe OrangeFox device tree
 
 ## Working
-
-- [X] Display
-- [X] Touch 
-- [X] Decryption
-- [X] Flashing
-- [X] Backup & Restore
-- [X] KernelSU, KernelSU Next & SukiSU Ultra Installer
-- [X] MTP/OTG Storage
-- [X] ADB/FastbootD
-- [X] Factory Reset
-- [X] Vibrator
-- [X] Display & Vibration Settings
-- [X] Flashlight
 
 ## Not working
 
@@ -29,12 +16,7 @@ cd sync
 ./orangefox_sync.sh --branch 14.1 --path ~/android/fox_14.1
 ```
 ### Clone Device-tree
-```
-cd ~/android/fox_14.1/device
-mkdir -p oneplus
-cd oneplus
-git clone https://github.com/koaaN/android_device_infiniti-orangefox -b R12 infiniti
-```
+
 ### BUILD!
 ```
 cd ~/android/fox_14.1
